@@ -188,7 +188,7 @@ var expandOption = function(el){
 
   //console.log(currentSet[el].description.replace(/:::\ \{\.note\}(\s*([^:::]*))/gi ,'<div class="alert alert-info" role="alert">$1</div>').replace(/:::/,''));
 
-  var elDesc = "<h5 style='margin:1em 0 0 0'>Description</h5><div>" + currentSet[el].description + "</div>";
+  var elDesc = "<h5 style='margin:1em 0 0 0'>Description</h5><div>" + currentSet[el].descriptionHTML + "</div>";
   var elType = "<h5 style='margin:1em 0 0 0'>Type</h5><div>" + currentSet[el].type + "</div>";
   //var elNote = ( currentSet[el].note == "" ? "": "<h5 style='margin:1em 0 0 0'>Note</h5><div>" + currentSet[el].note + "</div>");
   var elDefault = ( currentSet[el].default == "" ? "" : "<h5 style='margin:1em 0 0 0'>Default</h5><div><pre style='margin-top:0.5em'>" + currentSet[el].default + "</pre></div>");
